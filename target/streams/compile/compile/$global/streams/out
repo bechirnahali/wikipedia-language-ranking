@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /home/bechir/Downloads/bigdata_example/wikipedia/project/target/.sbt-compilation-infos/wikipedia-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/bechir/Downloads/bigdata_example/wikipedia/src/main/scala/wikipedia/WikipediaRanking.scala:91:6: Unmatched closing brace '}' ignored here[0m
+[0m[[0m[31merror[0m] [0m[0m  }*/}[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /home/bechir/Downloads/bigdata_example/wikipedia/project/target/.sbt-compilation-infos/wikipedia-compile/.sbt-idea-lock.[0m
