@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bigdata-wikipedia.iml" filepath="$PROJECT_DIR$/.idea/modules/bigdata-wikipedia.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bigdata-wikipedia-build.iml" filepath="$PROJECT_DIR$/.idea/modules/bigdata-wikipedia-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wikipedia-repo.iml" filepath="$PROJECT_DIR$/.idea/modules/wikipedia-repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wikipedia-repo-build.iml" filepath="$PROJECT_DIR$/.idea/modules/wikipedia-repo-build.iml" />
     </modules>
   </component>
 </project>

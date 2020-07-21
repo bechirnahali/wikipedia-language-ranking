@@ -1,2 +1,2 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/bechir/Downloads/bigdata_example/wikipedia/project/target/scala-2.12/sbt-1.0/resource_managed/main/sbt/sbt.autoplugins,/home/bechir/Downloads/bigdata_example/wikipedia/project/target/scala-2.12/sbt-1.0/classes/sbt/sbt.autoplugins)[0m
+[debug] Copy resource mappings: 
+[debug] 	(/home/bechir/Downloads/bigdata_example/wikipedia-repo/project/target/scala-2.12/sbt-1.0/resource_managed/main/sbt/sbt.autoplugins,/home/bechir/Downloads/bigdata_example/wikipedia-repo/project/target/scala-2.12/sbt-1.0/classes/sbt/sbt.autoplugins)
