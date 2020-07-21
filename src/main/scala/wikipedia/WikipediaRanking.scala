@@ -9,10 +9,6 @@ import scala.collection.mutable.ListBuffer
 
 
 case class WikipediaArticle(title: String, text: String) {
-  /**
-    * @return Whether the text of this article mentions `lang` or not
-    * @param lang Language to look for (e.g. "Scala")
-    */
 
   def mentionsLanguage(lang: String): Boolean = text.split(' ').contains(lang)
 }
@@ -27,10 +23,7 @@ object WikipediaRanking extends WikipediaRankingInterface {
   // Hint: use a combination of `sc.parallelize`, `WikipediaData.lines` and `WikipediaData.parse`
   val wikiRdd: RDD[WikipediaArticle] = sc.parallelize(WikipediaData.lines().map(line=>WikipediaData.parse(line)))
 
-  /** Returns the number of articles on which the language `lang` occurs.
-   *  Hint1: consider using method `aggregate` on RDD[T].
-   *  Hint2: consider using method `mentionsLanguage` on `WikipediaArticle`
-   */
+
   def occurrencesOfLang(lang: String, rdd: RDD[WikipediaArticle]): Int = {
     implicit def bool2int(b:Boolean) = if (b) 1 else 0
     val op1=(res:Int,elm:WikipediaArticle)=>res + elm.mentionsLanguage(lang)

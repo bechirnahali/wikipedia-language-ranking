@@ -20,25 +20,12 @@ class WikipediaSuite {
 
   import WikipediaRanking._
 
-  /**
-    * Creates a truncated string representation of a list, adding ", ...)" if there
-    * are too many elements to show
-    * @param l The list to preview
-    * @param n The number of elements to cut it at
-    * @return A preview of the list, containing at most n elements.
-    */
+
   def previewList[A](l: List[A], n: Int = 10): String =
     if (l.length <= n) l.toString
     else l.take(n).toString.dropRight(1) + ", ...)"
 
-  /**
-    * Asserts that all the elements in a given list and an expected list are the same,
-    * regardless of order. For a prettier output, given and expected should be sorted
-    * with the same ordering.
-    * @param actual The actual list
-    * @param expected The expected list
-    * @tparam A Type of the list elements
-    */
+
   def assertSameElements[A](actual: List[A], expected: List[A]): Unit = {
     val givenSet = actual.toSet
     val expectedSet = expected.toSet
